@@ -1,0 +1,30 @@
+{
+  "name": "es-babel-jspm",
+  "version": "1.0.0",
+  "description": "es2015 babel jspm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es2015",
+    "babel",
+    "jspm"
+  ],
+  "author": "TiepPhan",
+  "license": "ISC",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-jspm": "^0.5.10",
+    "gulp-jspm-build": "0.0.15"
+  }
+}
